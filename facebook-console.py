@@ -53,5 +53,5 @@ try:
           print('failed : '+pw)
     else:
       print('wrong command!')
-except:
+except KeyboardInterrupt:
   print('abort')
