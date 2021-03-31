@@ -16,7 +16,7 @@ logo="""
 | )      | )___) )  | (____/\| (___) || )  \  |/\____) || (___) || (____/\| (____/\\
 |/       |/ \___/   (_______/(_______)|/    )_)\_______)(_______)(_______/(_______/
 """
-url='http'
+url='http://m.facebook.com/login.php'
 def helps():
   print("""
   help      ==>  help for using this tools
